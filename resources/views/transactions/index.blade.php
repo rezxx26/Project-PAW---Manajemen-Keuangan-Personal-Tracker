@@ -358,7 +358,7 @@
                             <th>DATE</th>
                             <th>TYPE</th>
                             <th>AMOUNT</th>
-                            <th>ACTION</th> <!-- Kolom Baru -->
+                            <th>ACTION</th>
                         </tr>
                     </thead>
                     <tbody>
@@ -377,7 +377,6 @@
                                     {{ $sign }} Rp {{ number_format($item->amount, 0, ',', '.') }}
                                 </td>
                                 <td>
-                                    <!-- Tombol Action Baru -->
                                     <div class="btn-action-group">
                                         <a href="{{ route('transactions.edit', $item->id) }}" class="btn-edit">Edit</a>
                                         
