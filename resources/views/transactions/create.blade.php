@@ -338,7 +338,6 @@
                             <div class="form-group">
                                 <label for="category">Kategori</label>
                                 <select id="category" name="category" required>
-                                    <!-- Terisi otomatis lewat JavaScript -->
                                 </select>
                             </div>
 
@@ -389,8 +388,6 @@
                 updateCategories(selectedType);
             });
         });
-
-        // Inisialisasi awal (default Pengeluaran/expense)
         updateCategories('expense');
     </script>
 </body>
