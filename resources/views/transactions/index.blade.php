@@ -245,7 +245,6 @@
         .income-text { color: var(--income); font-weight: bold; }
         .expense-text { color: var(--expense); font-weight: bold; }
 
-        /* Style Tambahan untuk Tombol Aksi */
         .btn-action-group {
             display: flex;
             gap: 8px;
